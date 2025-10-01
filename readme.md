@@ -30,7 +30,8 @@ Las funcionalidades principales de la aplicación son:
 
 El front-end se comunica exclusivamente con un Proxy (Strangler Facade). Este proxy contiene la lógica del Circuit Breaker y decide a qué servicio de backend enviar cada petición, aislando las funcionalidades.
 
-![Diagrama de la Arquitectura Strangler](./assets/diagrama.png)
+![Diagrama de la Arquitectura Strangler](https://github.com/user-attachments/assets/9ccddfa7-f084-4b41-add6-6071a4c9c1d5)
+
 
 *El escudo 🛡️ en el Proxy simboliza el Circuit Breaker protegiendo las llamadas hacia el Microservicio de Tareas.*
 
