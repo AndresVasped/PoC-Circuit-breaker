@@ -1,0 +1,68 @@
+/* src/index.css */
+
+/* Estilo general para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Estilo para los encabezados */
+h1 {
+  color: #4CAF50;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Estilo para los botones */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Contenedor para las opciones */
+div {
+  margin-top: 50px;
+}
+
+/* Estilo de los enlaces */
+a {
+  text-decoration: none;
+}
+
+/* Espaciado y estilo en la lista */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tareas y clientes con colores */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

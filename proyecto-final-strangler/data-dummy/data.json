@@ -1,0 +1,33 @@
+{
+    "clients": [
+      {
+        "id": 0,
+        "name": "Juan Pérez",
+        "email": "juanperez@mail.com",
+        "phone": "123456789"
+      },
+      {
+        "id": 1,
+        "name": "Ana Gómez",
+        "email": "anagomez@mail.com",
+        "phone": "987654321"
+      }
+    ],
+    "tasks": [
+      {
+        "id": 0,
+        "clientId": 0,
+        "title": "Tarea de seguimiento",
+        "description": "Hacer seguimiento al cliente Juan Pérez",
+        "status": "pendiente"
+      },
+      {
+        "id": 1,
+        "clientId": 1,
+        "title": "Reunión inicial",
+        "description": "Agendar reunión con Ana Gómez",
+        "status": "en proceso"
+      }
+    ]
+  }
+  
