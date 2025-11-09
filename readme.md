@@ -105,4 +105,4 @@ Este método usa una herramienta externa para bombardear el sistema con peticion
 3.  **Observar la Defensa:** Mientras el ataque está en curso, asegúrate de que el "bug" del **Método 1** esté activado (`/attack/on`) para que las peticiones fallen. Mira la terminal del **proxy**: verás cómo se registran los fallos y, al superarse el umbral, aparecerá el mensaje `🚨 CIRCUITO ABIERTO`.
 
 ---
-**Autor:** Tu Nombre
+
